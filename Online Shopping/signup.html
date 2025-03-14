@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up | By Code Info</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="C:\Online Shopping\ASSET\CSS\login.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <a href="index.html">
+        <img src="https://cdn.picpng.com/button/back-button-arrow-icon-52394.png" alt="" width="50px">
+    </a>
+    <div class="signup-box">
+        <!-- <font style="font-size: smaller; color: red;">Enter all fields for sign up</font> -->
+        <h1>Sign Up</h1>
+        <h4>It's free and only takes a minute</h4>
+        <form>
+            <div data-aos="zoom-in-up">
+            <label>First Name</label>
+            <input type="text" placeholder=" First Name" required />
+            <label>Last Name</label>
+            <input type="text" placeholder="Last name" required/>
+            <label>Email</label>
+            <input type="email" placeholder="someone@gmail.com" required/>
+            <label>Password</label>
+            <input type="password" placeholder="password" required/>
+            <label>Confirm Password</label>
+            <input type="password" placeholder="repeat" required />
+            <input type="button" value="Sign Up" onclick="myFunction()"  />
+            <closeform></closeform>
+            </div>
+        </form>
+        <p>
+            By clicking the Sign Up button,you agree to our <br />
+            <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
+        </p>
+        <p class="para-2">
+            Already have an account? <a href="login.html">Login here</a>
+        </p>
+    </div>
+    
+    <script>
+            // const textInput= document.querySelector('input[type="text"]');
+            // const emailInput = document.querySelector('input[type="email"]');
+            // const passwordInput = document.querySelector('input[type="password"]');
+            // const loginButton = document.getElementById('loginButton');
+            // function checkFields() {
+            //     loginButton.hidden = !(emailInput.value && passwordInput.value && textInput.value);
+            // }
+            // textInput.addEventListener('input', checkFields);
+            // emailInput.addEventListener('input', checkFields);
+            // passwordInput.addEventListener('input', checkFields);
+
+            function myFunction() {
+                alert('LOGIN SUCCESSFUL');
+            }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            delay: 200,
+            offset: 100,
+        });
+    </script>
+</body>
+
+</html>
+
